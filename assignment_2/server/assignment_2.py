@@ -5,7 +5,7 @@ from flask_cors import CORS
 import requests
 import json
 
-app = Flask(__name__, template_folder='../client')
+app = Flask(__name__, template_folder='../client/templates')
 CORS(app)
 
 DATABASE = 'bike_database.sqlite'
